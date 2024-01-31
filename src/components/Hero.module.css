@@ -1,0 +1,40 @@
+.hero {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  background-color: var(--color-brand--1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 3.5em;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--color-white);
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+p {
+  color: var(--color-white);
+}

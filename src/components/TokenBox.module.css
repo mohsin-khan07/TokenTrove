@@ -1,0 +1,35 @@
+.tokenBox {
+  width: 27rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: var(--border-radius);
+  background-color: var(--color-white);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+img {
+  width: 30%;
+  height: 100%;
+  border-right: 1px solid #e9ecef;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 60%;
+}
+
+.title {
+  color: var(--color-brand--1);
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.value {
+  color: var(--color-dark--1);
+  font-weight: 400;
+}

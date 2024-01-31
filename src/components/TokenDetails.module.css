@@ -1,0 +1,17 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  gap: 0.5rem;
+}
+
+.heading {
+  font-size: var(--font-size--5);
+  font-weight: 600;
+}
+
+.address {
+  font-size: var(--font-size--3);
+  color: var(--color-dark--1);
+}
