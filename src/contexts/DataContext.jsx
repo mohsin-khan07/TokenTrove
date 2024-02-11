@@ -5,7 +5,7 @@ import { createContext, useContext, useState } from "react";
 const DataContext = createContext();
 
 const settings = {
-  apiKey: import.meta.env.VITE_ALCHEMY_API,
+  apiKey: process.env.ALCHEMY_API,
   network: Network.ETH_MAINNET,
 };
 
